@@ -1,0 +1,77 @@
+<html>
+   <nav>
+      <li class="navli"><a href="drag.html/artist.html"> back </li>
+  <body>
+    
+    <d class="wrapper">
+      <div class="A"> Location: Petco Park </div>
+      <div class="B"> Ticket Prices
+        <li> 3000$ For 1 </li>
+         <li> 4000$ For 2</li>
+         <li> 4500$ For 3 </li> 
+        </li></div>
+      <div class="C"> Email:Coolconcert102@gmail.com</div>
+      <h1> Dragon Concert (Info) </h1>
+      <img src="https://raw.githubusercontent.com/WVCS/index-Cartijared/main/drag.html/dragon.png" height=200px>
+      
+    </div>
+        <html>
+          <style>
+            nav{
+  list-style-type: none;
+  position: fixed;
+ 
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+body {
+  background-color:maroon;
+}
+
+.wrapper {
+  background-color: tan;
+  width: 95vw;
+  height:95vh;
+  align-items: center;
+  display: flex;
+    justify-content: space-evenly;
+}
+
+.A {/* height and width are set PIXELS */
+  background-color: gold;
+  border: dashed black;
+  height: 50px;
+  width 50px;
+  
+}
+
+.B { /*no specified size */
+  background-color: gold;
+  border-raidius: 30%;
+}
+
+.C { /* sized by percentages */
+  font-size: 200%;
+  border: solid maroon;
+  color: red
+  height: 70%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+    background-color red;
+  }
+  
+  body{
+    background-color: black; 
+  }
+
+  .B{
+    font-size: 50px;
+  }
+  .A{
+    border: solid maroon 30px;
+  }
