@@ -234,245 +234,37 @@ function showSlides() {
     width: 100%;
   }
 }
-
 <style>
-  Jareds Custom Website<html>
-  <head>
-    <title> The Westview Circus </title>
-  </head>
-  <body>
-     <body>
- <nav>
-      <li class="navli"><a href="https://wvcs.github.io/index-Cartijared/"> Home </li>
-      <li class="navli"><a href="https://en.wikipedia.org/wiki/Westview_High_School_(San_Diego)"> Location Details </li> 
-        <li class="navli"><a href="https://en.wikipedia.org/wiki/Clown"> Clown Wiki </li>
-       </nav>
-       <center>
-      <i> <u> <h1> Westview Clown Cirucs </h1>
-        </u>  <h2> Lead By:  Ernest Remillard </h2>
-       <label for="name">Email Updates!:</label>
-
-<input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 900px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #A7A158;
   width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
+  left: 0;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.navli {
+  display: inline;
+  float: fixed;
+  padding: 10px;
 }
 
-.active {
-  background-color: #717171;
+a {
+  text-decoration: none;
+  color: gold;
+  font-size: 120%;
+}
+.navli{
+  float:left;
+}
+.navli:hover {
+  background-color: teal;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 350px) {
-  .text {font-size: 50px}
-}
-</style>
-</head>
-<body>
-
-<h2>Circus Actors</h2>
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="https://pyxis.nymag.com/v1/imgs/12f/0c0/c381b0aa9a68758e0f99d7df8ac75ad0f7-17-clowns-pennywise.2x.h473.w710.jpg">
-  <div class="text">Ms.Parker</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="https://cdn.britannica.com/98/196498-131-14B78278/Pennywise-Bill-Skarsgard-film-adaptation-novel-Stephen.jpg">
-  <div class="text">Mr. Bowden</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="https://www.indiewire.com/wp-content/uploads/2017/01/curse-of-chucky.jpg?w=780">
-  <div class="text">Mrs.Heard</div> 
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
-</body>
-</html> 
-
-  </body> </head>
-<body>
-  <!DOCTYPE html>
-<html>
-<head>
-<style>
-.myDiv {
-  border: 5px outset gold;
-  background-color: maroon;    
-  text-align: center;
-}
-</style>
-</head>
-  <body><h1>Circus Show Times:</h1>
-<div class="myDiv">
-  <h2>*Show Times May Be Subject To Change*</h2>
-  <dl>
-  <dt>Juggling:</dt>
-  <dd>- 3:45-4:00</dd>
-     <dd>- 12:00-12:15</dd>
-  <dt>Burning Rope Walk:</dt>
-  <dd>- 4:00-4:25</dd>
-     <dd>- 12:15-12:40</dd>
-    <dt>Fire Breathing:</dt>
-  <dd>-4:25-5:00</dd>
-     <dd>- 12:40-1:15</dd>
-</dl>
-</div> </body>
-  <body> <iframe width="560" height="315" src="https://www.youtube.com/embed/LkjvwtQfRw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <p> Our Fire Breathing Preview </body>
-<body>
-
-<h1>Ticket Prices</h1>
-<div class="myDiv">
-  <h2>*Prices May Vary*</h2>
-  <p>30.00$ At the Door</p>
-    <p>18.00$ in Advance</p>
-    <p>5.00$ KIDS 10 & UNDER!</p>
-</div>
-
-<p>(No refunds ACCEPTED)</p>
-  <p>Located: 13500 Wolverine Way</p>
-
-</body>
-</html>
-
-  <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-.menu {
-  float: left;
-  width: 20%;
-}
-.menuitem {
-  padding: 8px;
-  margin-top: 7px;
-  border-bottom: 1px solid #A7A158;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: hidden;
-}
-.right {
-  background-color: lightblue;
-  float: left;
-  width: 20%;
-  padding: 10px 15px;
-  margin-top: 7px;
-}
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
+body {background-color: maroon;}
   </style>
   
+
 
 
